@@ -69,7 +69,7 @@ Employees with lower education levels have higher attrition rates.
 Female employees show a slightly higher attrition rate than males.
 📊 Dashboard Preview
 
-(Insert a screenshot of your Power BI dashboard here.)
+[Aditya.power.bi.pdf](https://github.com/user-attachments/files/19495619/Aditya.power.bi.pdf)
 
 🏆 Final Conclusion
 
