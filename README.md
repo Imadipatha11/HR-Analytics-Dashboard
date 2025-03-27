@@ -1,114 +1,84 @@
-📈 HR Analytics Dashboard (Power BI Project)
+📈 HR Analytics Dashboard – Power BI Project
 
-📌 Project Overview
+🎯 Project Objective
 
-The HR Analytics Dashboard is a Power BI-based visualization tool designed to help HR professionals analyze workforce data effectively. This dashboard provides key insights into employee attrition, salary trends, job roles, and various HR metrics to enhance decision-making and strategic workforce planning.
+The HR Analytics Dashboard is designed to help HR professionals analyze workforce data, identify attrition trends, and improve employee retention strategies. By understanding key HR metrics, organizations can create better policies to enhance employee satisfaction and reduce turnover.
 
-🎯 Key Features
+📊 Dataset Used
 
-✅ Attrition Analysis – Identify patterns in employee turnover based on age, salary, job roles, and education.
-✅ Salary & Compensation Insights – Explore salary distributions across different job roles and experience levels.
-✅ Employee Demographics Overview – Analyze workforce diversity, age groups, and gender distribution.
-✅ Performance & Satisfaction Metrics – Understand employee engagement, work-life balance, and performance trends.
-✅ Interactive Visualizations – Filter data dynamically to get in-depth insights.
+📂 HR Dataset (Included in the repository)
 
-🗂️ Files in This Repository
+The dataset includes various employee-related attributes such as age, salary, job roles, attrition status, experience, and more.
 
-📂 Dashboard.pbix – Power BI dashboard file.
-📂 data.csv – HR dataset used for visualization.
-📂 README.md – Project documentation.
-📂 Aditya_Power_BI.pdf – Project reference document with insights.
+❓ Questions & KPIs Addressed
 
-📊 Dataset Description
+1️⃣ Attrition Analysis – Compare attrition across different employee demographics.
+2️⃣ Which age group has the highest attrition?
+3️⃣ Which job roles are most affected by attrition?
+4️⃣ How does salary affect employee turnover?
+5️⃣ Which department has the highest attrition rate?
+6️⃣ What is the relationship between attrition and work-life balance?
+7️⃣ Top reasons why employees leave the company?
+8️⃣ Average salary comparison across job levels and departments.
+9️⃣ Attrition breakdown by education and gender.
+🔟 Overall company workforce insights.
 
-This dataset consists of employee-related attributes. Here are some key columns:
+🔄 Process
 
-Column Name	Description
-EmpID	Unique Employee ID
-Age	Employee's Age
-Attrition	Whether the employee left (Yes/No)
-Department	Employee's Department
-JobRole	Designation of the employee
-MonthlyIncome	Employee's monthly salary
-YearsAtCompany	Total years at the company
-WorkLifeBalance	Work-life balance rating (1-4 scale)
-PerformanceRating	Performance score (1-5 scale)
-📊 Dashboard Insights
+✔ Data Cleaning & Preprocessing
 
-🔹 Total Employees: 1,473
-🔹 Attrition Count: 237
-🔹 Attrition Rate: 16.09%
-🔹 Average Salary: $6.5K per month
-🔹 Average Years at Company: 11
+Verified and removed any missing values & anomalies.
+Ensured data consistency in terms of format and types.
+✔ Data Analysis & Visualization
 
-📌 Attrition Breakdown
-By Age Group
+Created pivot tables & charts to analyze workforce trends.
+Designed interactive visuals in Power BI to compare employee metrics dynamically.
+✔ Dashboard Development
 
-Age Group	Employees Left
-18-25	44
-26-35	116
-36-45	43
-46-55	26
-55+	8
-By Salary Slab
+Merged all pivot tables & visualizations into a single interactive dashboard.
+Applied filters & slicers for dynamic data exploration.
+📊 HR Dashboard Insights
 
-Salary Range	Employees Left
-Up to 5K	163
-5K-10K	49
-10K-15K	20
-15K+	5
-By Job Role
+📌 Total Employees: 1,473
+📌 Total Attrition: 237
+📌 Attrition Rate: 16.09%
+📌 Average Age of Employees: 37 years
+📌 Average Monthly Salary: $6.5K
+📌 Average Years at Company: 11
 
-Job Role	Employees Left
-Laboratory Technician	62
-Sales Executive	57
-Research Scientist	47
-Sales Representative	33
-📸 Dashboard Preview
-📊 Dataset Description
+🔹 Attrition Breakdown
+✔ Age Group with Highest Attrition: Employees aged 26-35 years (116 employees left).
+✔ Top Job Roles Affected:
 
-This dataset consists of employee-related attributes. Here are some key columns:
+Laboratory Technician – 62 employees left.
+Sales Executive – 57 employees left.
+Research Scientist – 47 employees left.
+✔ Salary & Attrition Relation:
 
-Column Name	Description
-EmpID	Unique Employee ID
-Age	Employee's Age
-Attrition	Whether the employee left (Yes/No)
-Department	Employee's Department
-JobRole	Designation of the employee
-MonthlyIncome	Employee's monthly salary
-YearsAtCompany	Total years at the company
-WorkLifeBalance	Work-life balance rating (1-4 scale)
-PerformanceRating	Performance score (1-5 scale)
-📊 Dashboard Insights
+Employees earning below $5K/month have the highest attrition rate.
+Higher salaries (above $10K/month) show lower attrition.
+✔ Top Departments with High Attrition:
 
-🔹 Total Employees: 1,473
-🔹 Attrition Count: 237
-🔹 Attrition Rate: 16.09%
-🔹 Average Salary: $6.5K per month
-🔹 Average Years at Company: 11
+Sales & Research have the most employee turnover.
+✔ Work-Life Balance Impact:
 
-📌 Attrition Breakdown
-By Age Group
+Employees with low work-life balance scores (1-2) are more likely to leave.
+✔ Education & Gender Factor:
 
-Age Group	Employees Left
-18-25	44
-26-35	116
-36-45	43
-46-55	26
-55+	8
-By Salary Slab
+Employees with lower education levels have higher attrition rates.
+Female employees show a slightly higher attrition rate than males.
+📊 Dashboard Preview
 
-Salary Range	Employees Left
-Up to 5K	163
-5K-10K	49
-10K-15K	20
-15K+	5
-By Job Role
+(Insert a screenshot of your Power BI dashboard here.)
 
-Job Role	Employees Left
-Laboratory Technician	62
-Sales Executive	57
-Research Scientist	47
-Sales Representative	33
+🏆 Final Conclusion
 
+To reduce attrition and retain talent, companies should focus on:
 
+✅ Improving Work-Life Balance – Offering flexible work policies & mental wellness programs.
+✅ Salary Adjustments – Ensuring competitive pay, especially for lower salary bands.
+✅ Targeted Retention Programs – Special focus on Sales & Research departments.
+✅ Career Growth & Promotions – Employees with longer tenure & no promotions tend to leave.
+✅ Personalized Employee Engagement – Addressing concerns of employees aged 26-35 years.
+
+By implementing data-driven HR policies, organizations can reduce attrition and improve employee satisfaction! 🚀
