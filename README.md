@@ -1,12 +1,12 @@
-📈 HR Analytics Dashboard – Power BI Project
+# HR Analytics Dashboard – Power BI Project
 
-🎯 Project Objective
+## Project Objective
 
 The HR Analytics Dashboard is designed to help HR professionals analyze workforce data, identify attrition trends, and improve employee retention strategies. By understanding key HR metrics, organizations can create better policies to enhance employee satisfaction and reduce turnover.
 
-📊 Dataset Used
+# 📊 Dataset Used
 
-📂 HR Dataset (Included in the repository)
+## HR Dataset (Included in the repository)
 
 The dataset includes various employee-related attributes such as age, salary, job roles, attrition status, experience, and more.
 
@@ -23,9 +23,8 @@ The dataset includes various employee-related attributes such as age, salary, jo
 9️⃣ Attrition breakdown by education and gender.
 🔟 Overall company workforce insights.
 
-🔄 Process
-
-✔ Data Cleaning & Preprocessing
+# Process
+## Data Cleaning & Preprocessing
 
 Verified and removed any missing values & anomalies.
 Ensured data consistency in terms of format and types.
@@ -37,7 +36,8 @@ Designed interactive visuals in Power BI to compare employee metrics dynamically
 
 Merged all pivot tables & visualizations into a single interactive dashboard.
 Applied filters & slicers for dynamic data exploration.
-📊 HR Dashboard Insights
+
+# 📊 HR Dashboard Insights
 
 📌 Total Employees: 1,473
 📌 Total Attrition: 237
@@ -67,11 +67,12 @@ Employees with low work-life balance scores (1-2) are more likely to leave.
 
 Employees with lower education levels have higher attrition rates.
 Female employees show a slightly higher attrition rate than males.
-📊 Dashboard Preview
+
+# 📊 Dashboard Preview
 
 [Aditya.power.bi.pdf](https://github.com/user-attachments/files/19495619/Aditya.power.bi.pdf)
 
-🏆 Final Conclusion
+# Final Conclusion
 
 To reduce attrition and retain talent, companies should focus on:
 
@@ -81,4 +82,4 @@ To reduce attrition and retain talent, companies should focus on:
 ✅ Career Growth & Promotions – Employees with longer tenure & no promotions tend to leave.
 ✅ Personalized Employee Engagement – Addressing concerns of employees aged 26-35 years.
 
-By implementing data-driven HR policies, organizations can reduce attrition and improve employee satisfaction! 🚀
+## By implementing data-driven HR policies, organizations can reduce attrition and improve employee satisfaction! 
